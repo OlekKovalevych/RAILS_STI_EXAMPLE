@@ -1,4 +1,4 @@
-class Dog < ApplicationRecord
+class Dog < Animal
   belongs_to :clinic
-  belongs_to :user
+
 end
